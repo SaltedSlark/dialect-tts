@@ -1,5 +1,5 @@
 # 基于nvidia NeMo框架下fastpitch-tts算法开发的语音合成模型
-支持多语言，包括中国方言。
+支持多语言，包括中国方言。本项目以西安方言为案例。
 ## 环境配置
 ```
    conda create --name nemo python==3.8
@@ -10,10 +10,6 @@
 ## 数据
 - 喜马拉雅《白鹿原》陕西方言有声小说 30小时
 
-- LJSpeech EN
- 
-- BiliBili broadcast 中文普通话
- 
 ## 音素设计
 - 中文普通话
   - 拼音
@@ -21,6 +17,7 @@
   - 国际音标
 - 方言
   - 参考[西安方言](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/dialectIndex.php?point=A)声母、韵母以及声调系统
+  - 参考[语保工程](https://zhongguoyuyan.cn/)，dialect-tts方案可推广至大多数方言
   
 ## 模型
 - 总体参考[MassTTS](https://github.com/anyvoiceai/MassTTS/)
